@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		864C04AD2B3130D8001341C4 /* BokChoyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C04AC2B3130D8001341C4 /* BokChoyApp.swift */; };
+		864C04AF2B3130D8001341C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C04AE2B3130D8001341C4 /* ContentView.swift */; };
+		864C04B12B3130D8001341C4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C04B02B3130D8001341C4 /* Item.swift */; };
+		864C04B32B3130DA001341C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864C04B22B3130DA001341C4 /* Assets.xcassets */; };
+		864C04B72B3130DA001341C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 864C04B62B3130DA001341C4 /* Preview Assets.xcassets */; };
+		864C04C22B3130DA001341C4 /* BokChoyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C04C12B3130DA001341C4 /* BokChoyTests.swift */; };
+		864C04CC2B3130DA001341C4 /* BokChoyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C04CB2B3130DA001341C4 /* BokChoyUITests.swift */; };
+		864C04CE2B3130DA001341C4 /* BokChoyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 864C04CD2B3130DA001341C4 /* BokChoyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		864C04BE2B3130DA001341C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 864C04A12B3130D8001341C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 864C04A82B3130D8001341C4;
+			remoteInfo = BokChoy;
+		};
+		864C04C82B3130DA001341C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 864C04A12B3130D8001341C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 864C04A82B3130D8001341C4;
+			remoteInfo = BokChoy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		864C04A92B3130D8001341C4 /* BokChoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BokChoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		864C04AC2B3130D8001341C4 /* BokChoyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BokChoyApp.swift; sourceTree = "<group>"; };
+		864C04AE2B3130D8001341C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		864C04B02B3130D8001341C4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		864C04B22B3130DA001341C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		864C04B42B3130DA001341C4 /* BokChoy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BokChoy.entitlements; sourceTree = "<group>"; };
+		864C04B62B3130DA001341C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		864C04B82B3130DA001341C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		864C04BD2B3130DA001341C4 /* BokChoyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BokChoyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		864C04C12B3130DA001341C4 /* BokChoyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BokChoyTests.swift; sourceTree = "<group>"; };
+		864C04C72B3130DA001341C4 /* BokChoyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BokChoyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		864C04CB2B3130DA001341C4 /* BokChoyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BokChoyUITests.swift; sourceTree = "<group>"; };
+		864C04CD2B3130DA001341C4 /* BokChoyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BokChoyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		864C04A62B3130D8001341C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864C04BA2B3130DA001341C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864C04C42B3130DA001341C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		864C04A02B3130D8001341C4 = {
+			isa = PBXGroup;
+			children = (
+				864C04AB2B3130D8001341C4 /* BokChoy */,
+				864C04C02B3130DA001341C4 /* BokChoyTests */,
+				864C04CA2B3130DA001341C4 /* BokChoyUITests */,
+				864C04AA2B3130D8001341C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		864C04AA2B3130D8001341C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				864C04A92B3130D8001341C4 /* BokChoy.app */,
+				864C04BD2B3130DA001341C4 /* BokChoyTests.xctest */,
+				864C04C72B3130DA001341C4 /* BokChoyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		864C04AB2B3130D8001341C4 /* BokChoy */ = {
+			isa = PBXGroup;
+			children = (
+				864C04AC2B3130D8001341C4 /* BokChoyApp.swift */,
+				864C04AE2B3130D8001341C4 /* ContentView.swift */,
+				864C04B02B3130D8001341C4 /* Item.swift */,
+				864C04B22B3130DA001341C4 /* Assets.xcassets */,
+				864C04B42B3130DA001341C4 /* BokChoy.entitlements */,
+				864C04B82B3130DA001341C4 /* Info.plist */,
+				864C04B52B3130DA001341C4 /* Preview Content */,
+			);
+			path = BokChoy;
+			sourceTree = "<group>";
+		};
+		864C04B52B3130DA001341C4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				864C04B62B3130DA001341C4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		864C04C02B3130DA001341C4 /* BokChoyTests */ = {
+			isa = PBXGroup;
+			children = (
+				864C04C12B3130DA001341C4 /* BokChoyTests.swift */,
+			);
+			path = BokChoyTests;
+			sourceTree = "<group>";
+		};
+		864C04CA2B3130DA001341C4 /* BokChoyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				864C04CB2B3130DA001341C4 /* BokChoyUITests.swift */,
+				864C04CD2B3130DA001341C4 /* BokChoyUITestsLaunchTests.swift */,
+			);
+			path = BokChoyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		864C04A82B3130D8001341C4 /* BokChoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864C04D12B3130DA001341C4 /* Build configuration list for PBXNativeTarget "BokChoy" */;
+			buildPhases = (
+				864C04A52B3130D8001341C4 /* Sources */,
+				864C04A62B3130D8001341C4 /* Frameworks */,
+				864C04A72B3130D8001341C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BokChoy;
+			productName = BokChoy;
+			productReference = 864C04A92B3130D8001341C4 /* BokChoy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		864C04BC2B3130DA001341C4 /* BokChoyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864C04D42B3130DA001341C4 /* Build configuration list for PBXNativeTarget "BokChoyTests" */;
+			buildPhases = (
+				864C04B92B3130DA001341C4 /* Sources */,
+				864C04BA2B3130DA001341C4 /* Frameworks */,
+				864C04BB2B3130DA001341C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				864C04BF2B3130DA001341C4 /* PBXTargetDependency */,
+			);
+			name = BokChoyTests;
+			productName = BokChoyTests;
+			productReference = 864C04BD2B3130DA001341C4 /* BokChoyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		864C04C62B3130DA001341C4 /* BokChoyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 864C04D72B3130DA001341C4 /* Build configuration list for PBXNativeTarget "BokChoyUITests" */;
+			buildPhases = (
+				864C04C32B3130DA001341C4 /* Sources */,
+				864C04C42B3130DA001341C4 /* Frameworks */,
+				864C04C52B3130DA001341C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				864C04C92B3130DA001341C4 /* PBXTargetDependency */,
+			);
+			name = BokChoyUITests;
+			productName = BokChoyUITests;
+			productReference = 864C04C72B3130DA001341C4 /* BokChoyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		864C04A12B3130D8001341C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					864C04A82B3130D8001341C4 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					864C04BC2B3130DA001341C4 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 864C04A82B3130D8001341C4;
+					};
+					864C04C62B3130DA001341C4 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 864C04A82B3130D8001341C4;
+					};
+				};
+			};
+			buildConfigurationList = 864C04A42B3130D8001341C4 /* Build configuration list for PBXProject "BokChoy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 864C04A02B3130D8001341C4;
+			productRefGroup = 864C04AA2B3130D8001341C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				864C04A82B3130D8001341C4 /* BokChoy */,
+				864C04BC2B3130DA001341C4 /* BokChoyTests */,
+				864C04C62B3130DA001341C4 /* BokChoyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		864C04A72B3130D8001341C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864C04B72B3130DA001341C4 /* Preview Assets.xcassets in Resources */,
+				864C04B32B3130DA001341C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864C04BB2B3130DA001341C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864C04C52B3130DA001341C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		864C04A52B3130D8001341C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864C04AF2B3130D8001341C4 /* ContentView.swift in Sources */,
+				864C04B12B3130D8001341C4 /* Item.swift in Sources */,
+				864C04AD2B3130D8001341C4 /* BokChoyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864C04B92B3130DA001341C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864C04C22B3130DA001341C4 /* BokChoyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		864C04C32B3130DA001341C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				864C04CE2B3130DA001341C4 /* BokChoyUITestsLaunchTests.swift in Sources */,
+				864C04CC2B3130DA001341C4 /* BokChoyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		864C04BF2B3130DA001341C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 864C04A82B3130D8001341C4 /* BokChoy */;
+			targetProxy = 864C04BE2B3130DA001341C4 /* PBXContainerItemProxy */;
+		};
+		864C04C92B3130DA001341C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 864C04A82B3130D8001341C4 /* BokChoy */;
+			targetProxy = 864C04C82B3130DA001341C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		864C04CF2B3130DA001341C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		864C04D02B3130DA001341C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		864C04D22B3130DA001341C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BokChoy/BokChoy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BokChoy/Preview Content\"";
+				DEVELOPMENT_TEAM = 528T5U7KUX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BokChoy/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Animus.BokChoy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		864C04D32B3130DA001341C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BokChoy/BokChoy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BokChoy/Preview Content\"";
+				DEVELOPMENT_TEAM = 528T5U7KUX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BokChoy/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Animus.BokChoy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		864C04D52B3130DA001341C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 528T5U7KUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Animus.BokChoyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BokChoy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BokChoy";
+			};
+			name = Debug;
+		};
+		864C04D62B3130DA001341C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 528T5U7KUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Animus.BokChoyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BokChoy.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BokChoy";
+			};
+			name = Release;
+		};
+		864C04D82B3130DA001341C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 528T5U7KUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Animus.BokChoyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BokChoy;
+			};
+			name = Debug;
+		};
+		864C04D92B3130DA001341C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 528T5U7KUX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Animus.BokChoyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BokChoy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		864C04A42B3130D8001341C4 /* Build configuration list for PBXProject "BokChoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864C04CF2B3130DA001341C4 /* Debug */,
+				864C04D02B3130DA001341C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		864C04D12B3130DA001341C4 /* Build configuration list for PBXNativeTarget "BokChoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864C04D22B3130DA001341C4 /* Debug */,
+				864C04D32B3130DA001341C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		864C04D42B3130DA001341C4 /* Build configuration list for PBXNativeTarget "BokChoyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864C04D52B3130DA001341C4 /* Debug */,
+				864C04D62B3130DA001341C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		864C04D72B3130DA001341C4 /* Build configuration list for PBXNativeTarget "BokChoyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				864C04D82B3130DA001341C4 /* Debug */,
+				864C04D92B3130DA001341C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 864C04A12B3130D8001341C4 /* Project object */;
+}
